@@ -31,10 +31,11 @@ Usage
 -----
 
 Profman accepts one of three mode arguments:
-    * `-g/--get`: Get the current throttle policy and print it to stdout
-    * `-s/--set <policy>`: Set the current throttle policy and display a notification.
-      Accepts policy numbers (0, 1, 2) or names (default, turbo, silent).
-    * `-n`: Increment the set policy number. This is useful for binding to the profile key on some laptops (Fn+F5 on mine).
+
+* `-g/--get`: Get the current throttle policy and print it to stdout
+* `-s/--set <policy>`: Set the current throttle policy and display a notification.
+  Accepts policy numbers (0, 1, 2) or names (default, turbo, silent).
+* `-n`: Increment the set policy number. This is useful for binding to the profile key on some laptops (Fn+F5 on mine).
 
 Ex.
 ```
